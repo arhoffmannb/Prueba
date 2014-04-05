@@ -67,16 +67,27 @@
       <file leaf-file-name="Mover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Mover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="66" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
+            <state line="107" column="36" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0" vertical-offset="1764" max-vertical-offset="3281">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tiempo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tiempo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="19" selection-start="60" selection-end="60" vertical-scroll-proportion="0.085141905" vertical-offset="0" max-vertical-offset="599">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Zombie.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Zombie.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Zombie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="26" selection-start="2088" selection-end="2088" vertical-scroll-proportion="1.4474124" vertical-offset="510" max-vertical-offset="1649">
+            <state line="85" column="28" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1955">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +98,8 @@
       <file leaf-file-name="Objeto.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Objeto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,8 +107,10 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <folding />
+            <state line="19" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="697">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,10 +127,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/Jugador.java" />
         <option value="$PROJECT_DIR$/src/Movimiento.java" />
+        <option value="$PROJECT_DIR$/src/tZombie.java" />
+        <option value="$PROJECT_DIR$/src/TimerTask.java" />
+        <option value="$PROJECT_DIR$/src/Tarea.java" />
+        <option value="$PROJECT_DIR$/src/ReminderBeep.java" />
+        <option value="$PROJECT_DIR$/src/RemindTask.java" />
         <option value="$PROJECT_DIR$/src/Objeto.java" />
+        <option value="$PROJECT_DIR$/../../../../EjemploCarro/src/Esfera.java" />
+        <option value="$PROJECT_DIR$/src/Manual.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Mover.java" />
         <option value="$PROJECT_DIR$/src/Zombie.java" />
+        <option value="$PROJECT_DIR$/src/Mover.java" />
+        <option value="$PROJECT_DIR$/src/ZombieEspecial.java" />
       </list>
     </option>
   </component>
@@ -200,7 +219,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../EjemploCarro/src/Esfera.java" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
@@ -380,6 +399,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -395,7 +415,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -424,116 +443,172 @@
     <entry file="file://$PROJECT_DIR$/src/Mover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="9" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1547">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="408">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="9" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1377">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="408">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="9" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="408">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="9" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="408">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="13" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1462">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="30" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="408">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="12" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1258">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Objeto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/../../../../EjemploCarro/src/Esfera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Manual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="387" selection-end="387" vertical-scroll-proportion="0.074972436" vertical-offset="0" max-vertical-offset="907">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mover.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="66" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
+        <state line="19" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="697">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Objeto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Zombie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="26" selection-start="2088" selection-end="2088" vertical-scroll-proportion="1.4474124" vertical-offset="510" max-vertical-offset="1649">
+        <state line="85" column="28" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1955">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ZombieEspecial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="128" selection-start="669" selection-end="669" vertical-scroll-proportion="0.8230384" vertical-offset="0" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="36" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0" vertical-offset="1764" max-vertical-offset="3281">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tiempo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="60" selection-end="60" vertical-scroll-proportion="0.085141905" vertical-offset="0" max-vertical-offset="599">
+          <folding />
         </state>
       </provider>
     </entry>

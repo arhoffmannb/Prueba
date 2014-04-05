@@ -7,9 +7,11 @@ import java.util.Random;
 
 public class Zombie extends Objeto{
 
-    BufferedImage zombie;
+    public BufferedImage zombie;
     float aleatorio = this.Aleatorio();
-    private int posicionActual = 0;
+    float aleatorio2 = this.Aleatorio2();
+
+
 
 
 
@@ -28,15 +30,6 @@ public class Zombie extends Objeto{
 
     }
 
-    public int PosicionActual(){
-        int posicionActual = posicionY;
-        if(posicionY == 500){
-            posicionActual = 0;
-        }
-        return  posicionActual;
-
-    }
-
 
 
     public int Aleatorio() {
@@ -44,7 +37,15 @@ public class Zombie extends Objeto{
         return random.nextInt(4);
     }
 
+    public int Aleatorio2() {
+        Random random = new Random();
+        return random.nextInt(3);
+    }
+
+
+
     public void Draw(Graphics g){
+
 
 
         if(aleatorio == 0){
@@ -74,13 +75,30 @@ public class Zombie extends Objeto{
                 System.out.print("No Zombie");
             }
 
+
+        }
+
+        if(aleatorio2 == 0){
+            posicionX = 190;
+        } else if(aleatorio2 == 1){
+            posicionX = 350;
+        } else if(aleatorio2 == 2){
+            posicionX = 510;
         }
 
         g.drawImage(zombie,posicionX,posicionY,null);
 
-        if(posicionY == 450){
-            posicionY = 0;
-        }
+      if(posicionY == 450){
+          posicionY = 0;
+
+          Random random = new Random();
+          aleatorio =  random.nextInt(4);
+
+          Random random2 = new Random();
+          aleatorio2 = random2.nextInt(3);
+
+
+      }
 
 
 
