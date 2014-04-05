@@ -16,9 +16,14 @@ public class Mover extends JPanel implements  Runnable, KeyListener{
     int posX = 350;
     BufferedImage jugador;
     BufferedImage fondo;
-    Zombie zombie1, zombie2, zombie3, zombie4, zombie5, zombie6;
+    Zombie zombie1, zombie2, zombie3, zombie4, zombie5;
     ZombieEspecial zombieEspecial1, zombieEspecial2;
     int velocidad = 60;
+    public int contador = 0;
+    public int algo = 0;
+    public float pausas = this.algo();
+
+
 
 
 
@@ -31,7 +36,7 @@ public class Mover extends JPanel implements  Runnable, KeyListener{
         zombie3 = new Zombie(this,0,510,18);
         zombie4 = new Zombie(this,0,190,23);
         zombie5 = new Zombie(this,0,350,20);
-        zombie6 = new Zombie(this,0,510,15);
+
         zombieEspecial1 = new ZombieEspecial(this,0,30,10);
         zombieEspecial2 = new ZombieEspecial(this,0,670,5);
 
@@ -51,7 +56,7 @@ public class Mover extends JPanel implements  Runnable, KeyListener{
             zombie3.Update();
             zombie4.Update();
             zombie5.Update();
-            zombie6.Update();
+
             zombieEspecial1.Update();
             zombieEspecial2.Update();
 
@@ -86,7 +91,7 @@ public class Mover extends JPanel implements  Runnable, KeyListener{
 
 
         g.setColor(Color.black);
-        g.fillRect(0,0,850,550);
+        g.fillRect(0,0,900,550);
 
 
 
@@ -123,14 +128,30 @@ public class Mover extends JPanel implements  Runnable, KeyListener{
         zombie3.Draw(g);
         zombie4.Draw(g);
         zombie5.Draw(g);
-        zombie6.Draw(g);
+
         zombieEspecial1.Draw(g);
         zombieEspecial2.Draw(g);
 
         g.drawImage(jugador,posX,420,null);
+        g.setColor(Color.WHITE);
+        g.drawString("" + contador + " puntos", 810, 20);
         repaint();
 
 
+    }
+
+    public float Vidas(){
+        int vidas = 5;
+        int zePosX = 0, zePosY = 0;
+        zombieEspecial1.posicionX = zePosX;
+        zombieEspecial1.posicionY = zePosY;
+        if(posX == 30){
+            vidas = 0;
+            System.out.println("Hola") ;
+        }
+
+
+        return vidas;
     }
 
 
@@ -140,24 +161,44 @@ public class Mover extends JPanel implements  Runnable, KeyListener{
         if(flecha.getKeyCode()==39){
             if(posX==670){
                 posX = 670;
+                contador += 1;
             }else{
                 posX = posX + 160;
+                contador += 1;
             }
 
 
         } else if(flecha.getKeyCode()==37){
             if(posX==30){
                 posX = 30;
+                contador += 1;
+
             }else{
                 posX = posX - 160;
+                contador += 1;
             }
         } else if(flecha.getKeyCode()==38){
             velocidad = 100;
+            contador += 1;
         } else if(flecha.getKeyCode()==40){
             velocidad = 60;
+            contador += 1;
+            algo = 1;
+        } else if(flecha.getKeyCode()==31){
+
+
+
+
         }
 
 
+    }
+
+    public float algo(){
+        int pausa = 0;
+        pausa = algo;
+
+        return pausa;
     }
 
     @Override

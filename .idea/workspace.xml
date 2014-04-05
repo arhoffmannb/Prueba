@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Prueba:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7a03557b-3455-4c23-a34c-30aa62f57ed4" name="Default" comment="" />
     <ignored path="Prueba.iws" />
@@ -67,7 +72,7 @@
       <file leaf-file-name="Mover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Mover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="36" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0" vertical-offset="1764" max-vertical-offset="3281">
+            <state line="23" column="38" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="3978">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,39 +80,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tiempo.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tiempo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="60" selection-end="60" vertical-scroll-proportion="0.085141905" vertical-offset="0" max-vertical-offset="599">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Zombie.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zombie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="28" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1955">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Objeto.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Objeto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="697">
+            <state line="58" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.8297162" vertical-offset="489" max-vertical-offset="1088">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reproductor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Reproductor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="40" selection-start="195" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,13 +119,14 @@
         <option value="$PROJECT_DIR$/src/Tarea.java" />
         <option value="$PROJECT_DIR$/src/ReminderBeep.java" />
         <option value="$PROJECT_DIR$/src/RemindTask.java" />
-        <option value="$PROJECT_DIR$/src/Objeto.java" />
         <option value="$PROJECT_DIR$/../../../../EjemploCarro/src/Esfera.java" />
         <option value="$PROJECT_DIR$/src/Manual.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Zombie.java" />
-        <option value="$PROJECT_DIR$/src/Mover.java" />
         <option value="$PROJECT_DIR$/src/ZombieEspecial.java" />
+        <option value="$PROJECT_DIR$/src/Objeto.java" />
+        <option value="$PROJECT_DIR$/src/Mover.java" />
+        <option value="$PROJECT_DIR$/src/Reproductor.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -223,6 +211,13 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -391,8 +386,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -412,7 +407,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -557,32 +552,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Manual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="387" selection-end="387" vertical-scroll-proportion="0.074972436" vertical-offset="0" max-vertical-offset="907">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="697">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Objeto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="5" column="43" selection-start="124" selection-end="124" vertical-scroll-proportion="0.14190318" vertical-offset="0" max-vertical-offset="599">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Zombie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="28" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1955">
+        <state line="45" column="0" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="1101" max-vertical-offset="1955">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -591,27 +570,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ZombieEspecial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="128" selection-start="669" selection-end="669" vertical-scroll-proportion="0.8230384" vertical-offset="0" max-vertical-offset="1037">
+        <state line="45" column="27" selection-start="869" selection-end="869" vertical-scroll-proportion="1.1352254" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="36" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0" vertical-offset="1764" max-vertical-offset="3281">
+        <state line="23" column="38" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3978">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tiempo.java">
+    <entry file="file://$PROJECT_DIR$/src/Reproductor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="60" selection-end="60" vertical-scroll-proportion="0.085141905" vertical-offset="0" max-vertical-offset="599">
-          <folding />
+        <state line="15" column="40" selection-start="195" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.8297162" vertical-offset="489" max-vertical-offset="1088">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Prueba:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Prueba</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

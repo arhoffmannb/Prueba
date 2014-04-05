@@ -3,7 +3,7 @@ import java.awt.*;
 
 public abstract class Objeto {
     public Mover movimiento;
-    public int posicionX = 0, posicionY = 0, direccionX = 0;
+    public int posicionX = 0, posicionY = 0;
     public float direccionY;
 
     public Objeto(){}
